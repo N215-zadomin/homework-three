@@ -1,0 +1,142 @@
+.row {
+  display: flex;
+  margin-left: 300px;
+  margin-top: -70px;
+  .thumbnails {
+    width: 236px;
+    height: 304px;
+    padding: 5px;
+    background-image: linear-gradient(
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url(../images/tour-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 150px; */
+
+    // text for places
+    p {
+      margin-top: 37px;
+      font-size: 60px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+
+    .money {
+      margin-top: -20px;
+      font-size: 30px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+    .submitting {
+      // margin-top: 37px;
+      width: 133px;
+      height: 40px;
+      border-radius: 38px;
+      border: none;
+      margin-top: 50px;
+      margin-left: 45px;
+      font-size: 15px;
+      color: $site-white;
+      font-family: GillSans;
+      background: #79addc;
+    }
+  }
+
+  .thumbnail {
+    width: 236px;
+    height: 304px;
+    padding: 5px;
+    background-image: linear-gradient(
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url(../images/tour-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 150px; */
+
+    p {
+      margin-top: 37px;
+      font-size: 60px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+
+    .money {
+      margin-top: -20px;
+      font-size: 30px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+    .submitting {
+      // margin-top: 37px;
+      width: 133px;
+      height: 40px;
+      border-radius: 38px;
+      border: none;
+      margin-top: 57px;
+      margin-left: 45px;
+      font-size: 15px;
+      color: $site-white;
+      font-family: GillSans;
+      background: $site-blue;
+    }
+  }
+
+  .thumb {
+    width: 236px;
+    height: 304px;
+    padding: 5px;
+    background-image: linear-gradient(
+        rgba($site-black, 0.5),
+        rgba($site-black, 0.5)
+      ),
+      url(../images/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 150px; */
+
+    // text for places
+    p {
+      margin-top: 37px;
+      font-size: 60px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+
+    .money {
+      margin-top: -20px;
+      font-size: 30px;
+      text-align: center;
+      font-family: ProximaNova;
+      color: $site-white;
+    }
+    .submitting {
+      // margin-top: 37px;
+      width: 133px;
+      height: 40px;
+      border-radius: 38px;
+      border: none;
+      margin-top: 57px;
+      margin-left: 45px;
+      font-size: 15px;
+      color: $site-white;
+      font-family: GillSans;
+      background: $site-blue;
+    }
+  }
+  /* Create three equal columns that sits next to each other */
+  .column {
+    padding: 30px;
+  }
+}

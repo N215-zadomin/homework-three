@@ -1,0 +1,218 @@
+.form-content {
+  max-width: $home-form-width;
+  min-height: 200px;
+  //   background-color: sandybrown;
+  margin: $center;
+
+  h1 {
+    font-family: ProximaNova;
+    font-size: 60px;
+  }
+
+  //   top boxes for name-email
+  .top-boxes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // long box will be email and hotel
+    .long-box {
+      width: 453px;
+    }
+    input {
+      width: 344px;
+      height: 58px;
+      padding-left: 10px;
+      font-size: 18px;
+      font-family: GillSans;
+      border: 2px solid $site-blue;
+      //   border-style: solid;
+    }
+  }
+
+  //   middle boxes for check in/out
+  .mid-boxes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // keeps input boxes in place
+    .holder {
+      position: relative;
+
+      label {
+        font-size: 18px;
+        color: $site-black;
+        font-family: GillSans;
+      }
+
+      input {
+        width: 725px;
+        height: 58px;
+        padding-left: 10px;
+        font-size: 18px;
+        margin-left: 20px;
+        font-family: GillSans;
+        border: 2px solid $site-blue;
+      }
+
+      i {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+      }
+    }
+  }
+
+  .mid-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // keeps input boxes in place
+    .holder {
+      position: relative;
+
+      label {
+        font-size: 18px;
+        color: $site-black;
+        font-family: GillSans;
+      }
+
+      input {
+        width: 725px;
+        height: 58px;
+        padding-left: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: GillSans;
+        border: 2px solid $site-blue;
+      }
+
+      i {
+        position: absolute;
+        top: 40px;
+        right: 10px;
+      }
+    }
+  }
+
+  //   smaller boxes for information
+  .small-boxes {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // keeps boxes in place
+    .holder {
+      position: relative;
+
+      label {
+        font-size: 18px;
+        color: $site-black;
+        font-family: GillSans;
+      }
+      input {
+        width: 103px;
+        height: 50px;
+        padding-left: 10px;
+        margin-left: 50px;
+        font-size: 18px;
+        font-family: GillSans;
+        border: 2px solid $site-blue;
+      }
+
+      i {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
+    }
+
+    .holder1 {
+      position: relative;
+      margin-right: 70px;
+
+      label {
+        font-size: 18px;
+        color: $site-black;
+        font-family: GillSans;
+      }
+      input {
+        width: 103px;
+        height: 50px;
+        padding-left: 10px;
+        margin-left: 3px;
+        font-size: 18px;
+        font-family: GillSans;
+        border: 2px solid $site-blue;
+      }
+
+      i {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
+    }
+    .holder2 {
+      position: relative;
+
+      label {
+        font-size: 18px;
+        color: $site-black;
+        font-family: GillSans;
+      }
+
+      input {
+        width: 103px;
+        height: 50px;
+        padding-left: 10px;
+        margin-left: 3px;
+        font-size: 18px;
+        font-family: GillSans;
+        border: 2px solid $site-blue;
+      }
+
+      i {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
+    }
+  }
+
+  //   big text box for message
+  .final-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+      width: 818px;
+      height: 200px;
+      padding-left: 10px;
+      padding-bottom: 150px;
+      font-size: 18px;
+      font-family: GillSans;
+      border: 2px solid $site-blue;
+      //   border-style: solid;
+    }
+  }
+
+  .submit {
+    margin-top: 37px;
+    width: 813px;
+    height: 60.59px;
+    border-radius: 38px;
+    border: none;
+    font-size: 15px;
+    font-family: GillSans;
+    color: $site-white;
+    background: $site-blue;
+  }
+  // end all form-content
+}
